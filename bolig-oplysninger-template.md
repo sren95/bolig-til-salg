@@ -10,7 +10,7 @@ er klar endnu. Jeg kan sagtens arbejde videre med et delvist udfyldt dokument.
 - Boligtype: Lejlighed
 - Ejerform: Ejerlejlighed
 - Etage: 4
-- Elevator: Ja
+- Elevator: Nej
 - Boligareal: 93 m2 + 6m2 altan
 - Tinglyst areal: 
 - Antal værelser: 3
@@ -207,3 +207,14 @@ Skriv hvilke dokumenter du har eller vil linke til. Læg dem eventuelt i
 - Må telefon vises? Måske efter de har opgive email (?)
 - Er der noget, der ikke må nævnes offentligt? 
 
+## 15. Forbehold/disclaimer
+
+Forslag til standardtekst på siden:
+
+> Salgsmaterialet er udarbejdet til orientering ved privat salg. Alle
+> oplysninger, mål, arealer, økonomiske tal, plantegning, kortangivelser og
+> beskrivelser er vejledende og kan være afrundede eller ændre sig. Køber
+> opfordres til selv at kontrollere oplysningerne i relevante dokumenter, hos
+> ejerforening/administrator og hos egne rådgivere, før der indgås aftale.
+
+Noter eller ændringer til disclaimer:
