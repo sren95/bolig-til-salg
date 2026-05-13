@@ -11,14 +11,14 @@ er klar endnu. Jeg kan sagtens arbejde videre med et delvist udfyldt dokument.
 - Ejerform: Ejerlejlighed
 - Etage: 4
 - Elevator: Nej
-- Boligareal: 93 m2 + 6m2 altan
-- Tinglyst areal: 
+- Boligareal: 93 m2 + 6 m2 altan
+- Tinglyst areal: 86 m2 ifølge salgsopstilling fra 2020
 - Antal værelser: 3
 - Antal soveværelser: 2
 - Altan/terrasse/fransk altan: altan
 - Kælder-/depotrum: Ja
 - Cykelparkering: Ja
-- Parkering: Ja
+- Parkering: Ja, tidligere oplyst som unummereret P-plads
 - Husdyr tilladt: Ja
 - Overtagelse: Flexibel
 
@@ -46,70 +46,88 @@ Eksempel:
 
 Din tekst:
 
+Velindrettet ejerlejlighed ved Alssund med udsigt mod vandet, Sønderborg Slot
+og Christian X's Bro. Boligen har et stort køkken-alrum, to værelser, altan og
+en praktisk planløsning, der gør den oplagt til både hverdag, hjemmearbejde og
+gæster. Den tidligere salgsopstilling fremhæver, at lejligheden var
+totalistandsat/renoveret og har adgang til fælles udearealer ved vandet.
+Efterfølgende forbedringer omfatter fjernvarme til alle lejligheder i
+ejerforeningen i 2022, nye lavenergivinduer og ny karnap i 2023, ny hoveddør
+til opgangen i 2024 samt altan fra 2025 med adgang via dør i karnappen.
 
 ## 4. De vigtigste salgsargumenter
 
 Skriv gerne 5-10 korte punkter.
 
-- 
-- 
-- 
-- 
-- 
+- Beliggenhed ved Alssund med udsigt mod vandet.
+- Udsigt mod Sønderborg Slot og Christian X's Bro.
+- Stort køkken-alrum som naturligt opholdsrum.
+- To værelser, hvoraf det ene kan bruges som kontor/gæsteværelse.
+- Altan.
+- Kælder-/depotrum.
+- Cykelskur, vaskerum og fælles udearealer.
+- Parkering.
+- Tidligere salgsopstilling nævner bådplads nr. C; skal bekræftes som aktuel.
+- Fiberinternet installeret.
+- Totalrenoveret/totalistandsat i 2018.
+- Fjernvarme til alle lejligheder i ejerforeningen i 2022.
+- Nye lavenergivinduer og ny karnap i 2023.
+- Ny hoveddør til opgangen i 2024.
+- Altan fra 2025 med adgang via dør i karnappen.
 
 ## 5. Rum for rum
 
 ### Entré
 
-- Beskrivelse:
+- Beskrivelse: Fordelingsentré/gang med adgang til bad, værelser og opholdsrum.
 - Opbevaring:
 - Stand:
 
 ### Stue
 
-- Beskrivelse:
-- Lys/udsigt:
-- Plads til:
-- Særlige detaljer:
+- Beskrivelse: Stort åbent opholdsrum i forbindelse med køkkenet.
+- Lys/udsigt: Udsigt mod Alssund og broen. Tidligere salgsopstilling fremhæver også udsigt mod vandet, Sønderborg Slot og Christian X's Bro.
+- Plads til: Sofaområde, spiseplads og samlingspunkt i hverdagen.
+- Særlige detaljer: Åben forbindelse mellem køkken og stue. Ny karnap og lavenergivinduer fra 2023 samt adgang til altan via dør i karnappen fra 2025.
 
 ### Køkken
 
-- Beskrivelse:
-- Hårde hvidevarer:
-- Spiseplads:
-- Stand:
+- Beskrivelse: Åbent køkken i køkken-alrum.
+- Hårde hvidevarer: Tidligere salgsopstilling nævner emhætte, kogeplader, indbygningsovn og opvaskemaskine fra Siemens.
+- Spiseplads: Ja, i køkken-alrum/stue.
+- Stand: Tidligere salgsopstilling beskriver boligen som totalistandsat/renoveret.
 
 ### Soveværelse
 
-- Beskrivelse:
-- Skabsplads:
+- Beskrivelse: Et af to værelser.
+- Skabsplads: Tidligere salgsopstilling nævner skabsvæg/garderobe i det ene værelse.
 - Støj/ro:
 
 ### Ekstra værelse/kontor
 
-- Beskrivelse:
-- Anvendelse:
+- Beskrivelse: Andet værelse.
+- Anvendelse: Soveværelse, kontor, børneværelse eller gæsteværelse.
 
 ### Bad
 
-- Beskrivelse:
-- Vaskemaskine/tørretumbler:
-- Stand:
+- Beskrivelse: Bad med pladsudnyttet indretning.
+- Vaskemaskine/tørretumbler: Tidligere salgsopstilling nævner vaske-/tørretumbler combi.
+- Stand: Tidligere salgsopstilling beskriver boligen som totalistandsat/renoveret.
 
 ### Altan/udendørsareal
 
-- Beskrivelse:
+- Beskrivelse: Altan fra 2025 med adgang via dør i karnappen samt adgang til fælles terrasse/haveareal ved vandet ifølge tidligere salgsopstilling.
 - Solretning:
-- Udsigt:
+- Udsigt: Alssund og broen. Tidligere salgsopstilling nævner også Sønderborg Slot og Christian X's Bro.
 
 ## 6. Ejendommen og foreningen
 
-- Byggeår:
-- Renoveringer:
-- Tag/facade/vinduer:
-- Vaskeri:
-- Gårdmiljø:
-- Fællesfaciliteter:
+- Byggeår: 1906/1995 ifølge tidligere salgsopstilling
+- Renoveringer: Totalrenoveret/totalistandsat i 2018. Fjernvarme etableret til alle lejligheder i ejerforeningen i 2022. Nye lavenergivinduer og ny karnap i 2023. Ny hoveddør til opgangen i 2024. Altan fra 2025 med adgang via dør i karnappen.
+- Tag/facade/vinduer: Nye lavenergivinduer og ny karnap i 2023.
+- Vaskeri: Vaskerum med møntindkast ifølge tidligere salgsopstilling.
+- Gårdmiljø: Fællesareal/terrasse foran vandet og i gården ifølge tidligere salgsopstilling.
+- Fællesfaciliteter: Cykelskur, vaskerum, fælles havemøbler, kælderrum under Alhambra-bygningen, unummereret P-plads og bådplads nr. C ifølge tidligere salgsopstilling; bådplads bør bekræftes.
 - Foreningens økonomi:
 - Planlagte projekter:
 - Stemning i ejendommen:
@@ -124,7 +142,7 @@ Skriv gerne 5-10 korte punkter.
 - Cafeer/restauranter:
 - Vand/havn/strand:
 - Cykelafstand til relevante steder:
-- Hvad kan du bedst lide ved området?
+- Hvad kan du bedst lide ved området? Tæt på Alssund, Sønderborg Slot, Christian X's Bro, centrum, station/bus og universitet.
 
 ## 8. Billeder
 
@@ -155,6 +173,7 @@ Hvis du ikke har lagt dem ind endnu, kan du bare beskrive dem.
 - Filnavn: 
 - Skal den vises på forsiden, på en separat side, eller begge steder? Begge (?)
 - Eventuelle noter om rumfordeling:
+  - Plantegning viser køkken-alrum/stue, to værelser, bad, gang/entré og altan.
 
 ## 10. Kort
 

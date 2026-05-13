@@ -247,6 +247,34 @@ dt {
   font-weight: 900;
 }
 
+.timeline-list {
+  display: grid;
+  gap: 12px;
+  margin: 28px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline-list li {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 16px;
+  align-items: start;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.timeline-list strong {
+  color: var(--sage);
+  font-size: 14px;
+}
+
+.timeline-list span {
+  line-height: 1.55;
+}
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;
@@ -455,6 +483,11 @@ dd {
   .section-grid,
   .details {
     padding: 48px 0;
+  }
+
+  .timeline-list li {
+    grid-template-columns: 1fr;
+    gap: 6px;
   }
 
   dl div {
