@@ -151,18 +151,20 @@ Hvis du ikke har lagt dem ind endnu, kan du bare beskrive dem.
 
 ### Forsidebillede
 
-- Filnavn:
-- Kort billedtekst:
+- Filnavn: assets/photos/living-water-view.jpg
+- Kort billedtekst: Opholdsrum med spiseplads og udsigt over Alssund.
 
 ### Galleri
 
 | Filnavn | Motiv | Skal fremhæves? | Billedtekst |
 | --- | --- | --- | --- |
-|  | Stue | Ja/nej |  |
-|  | Køkken | Ja/nej |  |
-|  | Soveværelse | Ja/nej |  |
-|  | Bad | Ja/nej |  |
-|  | Altan/udsigt | Ja/nej |  |
+| assets/photos/living-water-view.jpg | Stue/spiseplads/udsigt | Ja | Opholdsrum med udsigt over Alssund |
+| assets/photos/kitchen.jpg | Køkken | Ja | Åbent køkken med lyse fronter og mørke bordplader |
+| assets/photos/bay-window-balcony.jpg | Karnap/altandør | Ja | Karnap med adgang til altan |
+| assets/photos/balcony-bridge-view.jpg | Altan/udsigt | Ja | Altan med udsigt over Alssund og broen |
+| assets/photos/bathroom.jpg | Bad | Ja | Funktionelt bad |
+| assets/photos/bedroom.jpg | Soveværelse | Ja | Soveværelse med skabsplads |
+| assets/photos/hallway.jpg | Entré/gang | Ja | Fordelingsgang/entré |
 |  | Ejendom/facade | Ja/nej |  |
 |  | Gårdmiljø | Ja/nej |  |
 |  | Område | Ja/nej |  |

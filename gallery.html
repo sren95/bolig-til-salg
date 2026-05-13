@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Fuldt billedgalleri for lejligheden på Sundgade 1, 4.th i Sønderborg." />
+  <title>Galleri | Sundgade 1, 4.th</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="gallery-page">
+  <header class="site-header">
+    <a class="brand" href="index.html">Bolig til salg</a>
+    <nav aria-label="Sektioner">
+      <a href="index.html">Forside</a>
+      <a href="index.html#fakta">Fakta</a>
+      <a href="index.html#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gallery-hero" aria-labelledby="gallery-title">
+      <p class="eyebrow">Fuldt galleri</p>
+      <h1 id="gallery-title">Alle billeder fra lejligheden</h1>
+      <p class="intro">
+        Gennemse billederne som overblik, eller åbn et billede for slideshow med
+        forrige/næste navigation.
+      </p>
+    </section>
+
+    <section aria-label="Alle billeder">
+      <div id="fullGallery" class="full-gallery-grid"></div>
+    </section>
+  </main>
+
+  <div id="slideshow" class="slideshow" aria-hidden="true" role="dialog" aria-label="Billedslideshow">
+    <button class="slideshow-close" type="button" aria-label="Luk slideshow">Luk</button>
+    <button class="slideshow-nav slideshow-prev" type="button" aria-label="Forrige billede">‹</button>
+    <figure class="slideshow-frame">
+      <img id="slideshowImage" src="" alt="" />
+      <figcaption id="slideshowCaption"></figcaption>
+    </figure>
+    <button class="slideshow-nav slideshow-next" type="button" aria-label="Næste billede">›</button>
+  </div>
+
+  <script>
+    const images = Array.from({ length: 131 }, (_, index) => {
+      const number = 2733 + index;
+      return {
+        src: `assets/gallery/IMG_${number}.jpg`,
+        label: `Billede ${index + 1} af 131`
+      };
+    });
+
+    const gallery = document.getElementById("fullGallery");
+    const slideshow = document.getElementById("slideshow");
+    const slideshowImage = document.getElementById("slideshowImage");
+    const slideshowCaption = document.getElementById("slideshowCaption");
+    let currentIndex = 0;
+
+    function openSlideshow(index) {
+      currentIndex = index;
+      renderSlide();
+      slideshow.setAttribute("aria-hidden", "false");
+      document.body.classList.add("slideshow-open");
+      document.querySelector(".slideshow-close").focus();
+    }
+
+    function closeSlideshow() {
+      slideshow.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("slideshow-open");
+    }
+
+    function renderSlide() {
+      const image = images[currentIndex];
+      slideshowImage.src = image.src;
+      slideshowImage.alt = image.label;
+      slideshowCaption.textContent = image.label;
+    }
+
+    function showRelative(offset) {
+      currentIndex = (currentIndex + offset + images.length) % images.length;
+      renderSlide();
+    }
+
+    images.forEach((image, index) => {
+      const button = document.createElement("button");
+      button.className = "full-gallery-item";
+      button.type = "button";
+      button.setAttribute("aria-label", `Åbn ${image.label}`);
+      button.innerHTML = `<img src="${image.src}" alt="${image.label}" loading="lazy"><span>${image.label}</span>`;
+      button.addEventListener("click", () => openSlideshow(index));
+      gallery.appendChild(button);
+    });
+
+    document.querySelector(".slideshow-close").addEventListener("click", closeSlideshow);
+    document.querySelector(".slideshow-prev").addEventListener("click", () => showRelative(-1));
+    document.querySelector(".slideshow-next").addEventListener("click", () => showRelative(1));
+    slideshow.addEventListener("click", (event) => {
+      if (event.target === slideshow) closeSlideshow();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (slideshow.getAttribute("aria-hidden") === "true") return;
+      if (event.key === "Escape") closeSlideshow();
+      if (event.key === "ArrowLeft") showRelative(-1);
+      if (event.key === "ArrowRight") showRelative(1);
+    });
+  </script>
+</body>
+</html>
