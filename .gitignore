@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Editor and local workspace files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary save and backup files
+*.save
+*.bak
+*.tmp
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+
+# Local environment files
+.env
+.env.*
