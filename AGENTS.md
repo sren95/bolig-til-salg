@@ -97,6 +97,12 @@ Current positioning:
   balcony.
 - Relevant to couples, singles, students needing extra space, or a buyer wanting
   a separate office/guest room.
+- Public-facing copy should read like a polished listing, not an internal
+  worksheet. Avoid repeated caveats such as "historisk materiale", "tidligere
+  oplyst" and "bør bekræftes" on the page itself; keep necessary caution in the
+  general disclaimer or internal notes.
+- Mention brands such as AUBO only where they add concrete value, not repeatedly
+  in headlines and intro copy.
 
 Text reused from older sales material should be paraphrased and updated. The
 old sales listing was useful for ideas like:
