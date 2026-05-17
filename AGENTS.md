@@ -46,7 +46,7 @@ Use these as the currently known facts unless the user changes them:
 - Size: 93 m2 + 6 m2 balcony.
 - Tinglyst area: 86 m2 according to 2020 sales material.
 - Rooms: 3 rooms, including 2 bedrooms.
-- Asking price: 2.600.000 kr.
+- Asking price: 2.650.000 kr.
 - Common expenses: 3.650 kr./md.
 - Heating: 7.920 kr. aconto / 7.440 kr. used last year, per user input.
 - Energy label: C, per user input.
@@ -219,6 +219,9 @@ GitHub Pages should be configured as:
 - Converted raw gallery photos to web-friendly JPGs under `assets/gallery/`.
 - Changed gallery from hardcoded 131-image range to manifest-based loading.
 - Added `scripts/update-gallery-manifest.mjs`.
+- Set `assets/photos/outside-across-water-marked.png` as the primary front-page
+  image and added preferred ordering to the gallery manifest script so the
+  location/exterior/view images appear first.
 - Updated the area/location section with more water-and-city positioning based
   on transferable inspiration from a nearby Nørre Havnegade listing.
 - Added an "Udvalgte hverdagsafstande" block for grocery, pharmacy, daycare,

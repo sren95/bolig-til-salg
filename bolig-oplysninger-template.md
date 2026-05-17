@@ -24,7 +24,7 @@ er klar endnu. Jeg kan sagtens arbejde videre med et delvist udfyldt dokument.
 
 ## 2. Pris og økonomi
 
-- Udbudspris: 2.600.000
+- Udbudspris: 2.650.000
 - Ejerudgift pr. måned:
 - Fællesudgifter pr. måned: 3.650
 - Aconto varme (): 7.920 / 7.440 brugt sidste år
@@ -96,6 +96,7 @@ Skriv gerne 5-10 korte punkter.
 - Hårde hvidevarer: Tidligere salgsopstilling nævner emhætte, kogeplader, indbygningsovn og opvaskemaskine fra Siemens.
 - Spiseplads: Ja, i køkken-alrum/stue.
 - Stand: Tidligere salgsopstilling beskriver boligen som totalistandsat/renoveret.
+- Mærke: AUBO
 
 ### Soveværelse
 
@@ -113,6 +114,7 @@ Skriv gerne 5-10 korte punkter.
 - Beskrivelse: Bad med pladsudnyttet indretning.
 - Vaskemaskine/tørretumbler: Tidligere salgsopstilling nævner vaske-/tørretumbler combi.
 - Stand: Tidligere salgsopstilling beskriver boligen som totalistandsat/renoveret.
+- Mærke: AUBO
 
 ### Altan/udendørsareal
 
@@ -153,13 +155,15 @@ Hvis du ikke har lagt dem ind endnu, kan du bare beskrive dem.
 
 ### Forsidebillede
 
-- Filnavn: assets/photos/living-water-view.jpg
-- Kort billedtekst: Opholdsrum med spiseplads og udsigt over Alssund.
+- Filnavn: assets/photos/outside-across-water-marked.png
+- Kort billedtekst: Ejendommen markeret set fra den anden side af Alssund.
 
 ### Galleri
 
 | Filnavn | Motiv | Skal fremhæves? | Billedtekst |
 | --- | --- | --- | --- |
+| assets/photos/outside-across-water-marked.png | Ejendom/placering set fra vandet | Ja | Ejendommen markeret set fra den anden side af Alssund |
+| assets/gallery/IMG_2006.jpg | Altan/vandudsigt | Ja | Altan med direkte kig over Alssund |
 | assets/photos/living-water-view.jpg | Stue/spiseplads/udsigt | Ja | Opholdsrum med udsigt over Alssund |
 | assets/photos/kitchen.jpg | Køkken | Ja | Åbent køkken med lyse fronter og mørke bordplader |
 | assets/photos/bay-window-balcony.jpg | Karnap/altandør | Ja | Karnap med adgang til altan |
