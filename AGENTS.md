@@ -58,6 +58,15 @@ Use these as the currently known facts unless the user changes them:
 - Internet: Fiber installed.
 - Contact: Søren, soren.petersen95@gmail.com.
 - Phone should not be shown publicly for now.
+- Nearby-distance copy currently uses approximate public data: nearest grocery
+  about 500 m, Apoteket Borgen about 600 m, nearest registered daycare about
+  550 m, and school districts mentioned as Dybbøl-Skolen/Sønderskov-Skole.
+  Treat these as approximate and verify before making them more definitive.
+- Institution stats currently shown: about 50 day institutions in Sønderborg
+  according to Minly; 37 ground schools in Sønderborg Kommune according to
+  DinGeo; Dybbøl-Skolen 829 pupils, wellbeing 3.70, grade average 7.5;
+  Sønderskov-Skolen 630 pupils, wellbeing 3.60, grade average 7.0. Treat all
+  as public third-party/official-derived data that can change.
 
 ## Improvements To Highlight
 
@@ -75,6 +84,12 @@ Current positioning:
 - Apartment by Alssund with balcony and view.
 - Open kitchen-living space as the main gathering point.
 - View toward Alssund, the bridge, and historic Sønderborg surroundings.
+- Area copy can reuse/paraphrase transferable positioning from a nearby
+  Nørre Havnegade listing: water-facing everyday life, walks along Alssund,
+  proximity to harbor, city center, shopping, cafes/restaurants, bus, doctor,
+  Sønderborg Slot and Slotsparken. Do not reuse exact phrasing or transfer
+  building-specific facts such as elevator, penthouse, southwest balcony, or
+  exact distances unless verified for Sundgade 1.
 - Practical layout: kitchen-living room, two bedrooms, bathroom, hallway/entry,
   balcony.
 - Relevant to couples, singles, students needing extra space, or a buyer wanting
@@ -204,6 +219,15 @@ GitHub Pages should be configured as:
 - Converted raw gallery photos to web-friendly JPGs under `assets/gallery/`.
 - Changed gallery from hardcoded 131-image range to manifest-based loading.
 - Added `scripts/update-gallery-manifest.mjs`.
+- Updated the area/location section with more water-and-city positioning based
+  on transferable inspiration from a nearby Nørre Havnegade listing.
+- Added an "Udvalgte hverdagsafstande" block for grocery, pharmacy, daycare,
+  school district, station/SDU and city life.
+- Added an institution/school statistics block for day institutions, ground
+  schools and key figures for Dybbøl-Skolen and Sønderskov-Skolen.
+- Added a document/sales-information section, expanded room-by-room copy, and
+  made the economy/facts section more complete while keeping unknown figures
+  marked as to be clarified rather than inventing current values.
 
 ## Known Open Items
 

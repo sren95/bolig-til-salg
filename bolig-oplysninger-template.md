@@ -28,9 +28,9 @@ er klar endnu. Jeg kan sagtens arbejde videre med et delvist udfyldt dokument.
 - Ejerudgift pr. måned:
 - Fællesudgifter pr. måned: 3.650
 - Aconto varme (): 7.920 / 7.440 brugt sidste år
-- Aconto vand:
-- Ejendomsskat/grundskyld:
-- Eventuel gæld i foreningen:
+- Aconto vand: afklares i salgsdokumenter
+- Ejendomsskat/grundskyld: afklares i salgsdokumenter
+- Eventuel gæld i foreningen: bør verificeres hos ejerforening/administrator
 - Energimærke: C
 - Internet/tv-forhold: fiber internet installeret
 - Andre faste udgifter: -
@@ -134,15 +134,17 @@ Skriv gerne 5-10 korte punkter.
 
 ## 7. Område og transport
 
-- Nærmeste station/metro:
-- Nærmeste bus:
-- Indkøb:
-- Skoler/daginstitutioner:
-- Grønne områder:
-- Cafeer/restauranter:
-- Vand/havn/strand:
+- Nærmeste station/metro: Sønderborg Station ligger ved Alsion/SDU på den anden side af broen; afstand bør verificeres.
+- Nærmeste bus: Busforbindelser tæt på Sundgade/Dybbølgade og centrum; konkrete stoppesteder bør verificeres.
+- Indkøb: Nærmeste registrerede dagligvare ca. 500 m ifølge DinGeo-opslag for Sundgade 1.
+- Skoler/daginstitutioner: Skoledistrikter nævnes som Dybbøl-Skolen og Sønderskov-Skole i DinGeo-opslag for Sundgade 1; nærmeste registrerede daginstitution ca. 550 m. Bør verificeres aktuelt.
+- Grønne områder: Sønderborg Slotspark og ophold langs vandet.
+- Cafeer/restauranter: Centrum/gågade og havnemiljøet ligger tæt på.
+- Vand/havn/strand: Alssund, havnemiljøet, strandpromenaden og udsigt mod Christian X's Bro.
 - Cykelafstand til relevante steder:
 - Hvad kan du bedst lide ved området? Tæt på Alssund, Sønderborg Slot, Christian X's Bro, centrum, station/bus og universitet.
+  Referenceannonce fra Nørre Havnegade kan bruges som inspiration til overførbare områdeargumenter: vandnær beliggenhed, gåture langs sundet, nærhed til byliv, indkøb, cafeer/restauranter, bus, lægehus, Slotsparken og havnemiljøet. Undgå at overføre bygningsspecifikke fakta som elevator, penthouse, sydvestvendt altan og præcise afstande, medmindre de er bekræftet for Sundgade 1.
+- Institutions-/skoletal til områdeblok: Sønderborg har ifølge Minly ca. 50 daginstitutioner, heraf 20 børnehaver og 22 integrerede børnehave/vuggestue-tilbud. DinGeo viser 37 grundskoler i Sønderborg Kommune. Dybbøl-Skolen: 829 elever, trivsel 3,70, karaktergns. 7,5. Sønderskov-Skolen: 630 elever, trivsel 3,60, karaktergns. 7,0. Tal bør verificeres før endelig offentlig brug.
 
 ## 8. Billeder
 
@@ -213,6 +215,9 @@ Skriv hvilke dokumenter du har eller vil linke til. Læg dem eventuelt i
 - Regnskab:
 - Budget:
 - Andre dokumenter:
+- Salgsinfo på siden bør fortsat oplyse, at dokumenter fremsendes ved seriøs
+  henvendelse, og at køber bør verificere økonomi, ejerforening og tekniske
+  forhold med egne rådgivere.
 
 ## 13. Stil og tone
 
