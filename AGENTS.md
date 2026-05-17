@@ -52,8 +52,11 @@ Use these as the currently known facts unless the user changes them:
 - Energy label: C, per user input.
 - Takeover: Flexible.
 - Pets: Allowed, per user input.
-- Parking: Yes; earlier material mentions unnumbered parking.
-- Storage/cellar: Yes.
+- Kitchen and bathroom brand: AUBO, per user input/template.
+- Parking: Private parking option; earlier material mentions unnumbered parking.
+- Boat spot: Private boat spot no. C is mentioned in historic material and
+  should be confirmed as current before being treated as final.
+- Storage/cellar: Private depot/storage room included.
 - Bike parking: Yes.
 - Internet: Fiber installed.
 - Contact: Søren, soren.petersen95@gmail.com.

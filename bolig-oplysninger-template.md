@@ -16,9 +16,10 @@ er klar endnu. Jeg kan sagtens arbejde videre med et delvist udfyldt dokument.
 - Antal værelser: 3
 - Antal soveværelser: 2
 - Altan/terrasse/fransk altan: altan
-- Kælder-/depotrum: Ja
+- Kælder-/depotrum: Ja, privat depotrum medfølger
 - Cykelparkering: Ja
-- Parkering: Ja, tidligere oplyst som unummereret P-plads
+- Parkering: Privat parkeringsmulighed, tidligere oplyst som unummereret P-plads
+- Bådplads: Privat bådplads nr. C er nævnt i historisk materiale og bør bekræftes som aktuel
 - Husdyr tilladt: Ja
 - Overtagelse: Flexibel
 
@@ -47,10 +48,13 @@ Eksempel:
 Din tekst:
 
 Velindrettet ejerlejlighed ved Alssund med udsigt mod vandet, Sønderborg Slot
-og Christian X's Bro. Boligen har et stort køkken-alrum, to værelser, altan og
-en praktisk planløsning, der gør den oplagt til både hverdag, hjemmearbejde og
-gæster. Den tidligere salgsopstilling fremhæver, at lejligheden var
-totalistandsat/renoveret og har adgang til fælles udearealer ved vandet.
+og Christian X's Bro. Boligens naturlige samlingspunkt er det store opholdsrum,
+hvor stue og AUBO-køkken ligger i åben forbindelse, og hvor karnappen giver
+direkte adgang til altanen fra 2025. Lejligheden har to værelser, AUBO-bad,
+privat depotrum og en praktisk planløsning, der gør den oplagt til både hverdag,
+hjemmearbejde og gæster. Den tidligere salgsopstilling fremhæver, at
+lejligheden var totalistandsat/renoveret og har adgang til fælles udearealer
+ved vandet.
 Efterfølgende forbedringer omfatter fjernvarme til alle lejligheder i
 ejerforeningen i 2022, nye lavenergivinduer og ny karnap i 2023, ny hoveddør
 til opgangen i 2024 samt altan fra 2025 med adgang via dør i karnappen.
@@ -64,10 +68,10 @@ Skriv gerne 5-10 korte punkter.
 - Stort køkken-alrum som naturligt opholdsrum.
 - To værelser, hvoraf det ene kan bruges som kontor/gæsteværelse.
 - Altan.
-- Kælder-/depotrum.
+- Privat depotrum medfølger.
 - Cykelskur, vaskerum og fælles udearealer.
-- Parkering.
-- Tidligere salgsopstilling nævner bådplads nr. C; skal bekræftes som aktuel.
+- Privat parkeringsmulighed.
+- Historisk materiale nævner privat bådplads nr. C; skal bekræftes som aktuel.
 - Fiberinternet installeret.
 - Totalrenoveret/totalistandsat i 2018.
 - Fjernvarme til alle lejligheder i ejerforeningen i 2022.
@@ -92,7 +96,7 @@ Skriv gerne 5-10 korte punkter.
 
 ### Køkken
 
-- Beskrivelse: Åbent køkken i køkken-alrum.
+- Beskrivelse: Åbent AUBO-køkken i køkken-alrum.
 - Hårde hvidevarer: Tidligere salgsopstilling nævner emhætte, kogeplader, indbygningsovn og opvaskemaskine fra Siemens.
 - Spiseplads: Ja, i køkken-alrum/stue.
 - Stand: Tidligere salgsopstilling beskriver boligen som totalistandsat/renoveret.
@@ -111,7 +115,7 @@ Skriv gerne 5-10 korte punkter.
 
 ### Bad
 
-- Beskrivelse: Bad med pladsudnyttet indretning.
+- Beskrivelse: AUBO-bad med pladsudnyttet indretning.
 - Vaskemaskine/tørretumbler: Tidligere salgsopstilling nævner vaske-/tørretumbler combi.
 - Stand: Tidligere salgsopstilling beskriver boligen som totalistandsat/renoveret.
 - Mærke: AUBO
@@ -129,7 +133,7 @@ Skriv gerne 5-10 korte punkter.
 - Tag/facade/vinduer: Nye lavenergivinduer og ny karnap i 2023.
 - Vaskeri: Vaskerum med møntindkast ifølge tidligere salgsopstilling.
 - Gårdmiljø: Fællesareal/terrasse foran vandet og i gården ifølge tidligere salgsopstilling.
-- Fællesfaciliteter: Cykelskur, vaskerum, fælles havemøbler, kælderrum under Alhambra-bygningen, unummereret P-plads og bådplads nr. C ifølge tidligere salgsopstilling; bådplads bør bekræftes.
+- Fællesfaciliteter: Cykelskur, vaskerum og fælles havemøbler. Privat depotrum medfølger. Privat parkeringsmulighed er tidligere oplyst som unummereret P-plads. Historisk materiale nævner privat bådplads nr. C, som bør bekræftes som aktuel.
 - Foreningens økonomi:
 - Planlagte projekter:
 - Stemning i ejendommen:
