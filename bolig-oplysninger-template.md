@@ -140,16 +140,16 @@ Skriv gerne 5-10 korte punkter.
 
 ## 7. Område og transport
 
-- Nærmeste station/metro: Sønderborg Station ligger ved Alsion/SDU på den anden side af broen; afstand bør verificeres.
-- Nærmeste bus: Busforbindelser tæt på Sundgade/Dybbølgade og centrum; konkrete stoppesteder bør verificeres.
+- Nærmeste station/metro: Sønderborg Station ligger på samme side af sundet som boligen ved Alsion/SDU; afstand bør verificeres.
+- Nærmeste bus: Busstationen ligger på den modsatte side af sundet ved centrum/Borgen-siden; lokale stoppesteder tæt på Sundgade/Dybbølgade bør verificeres.
 - Indkøb: Nærmeste registrerede dagligvare ca. 500 m ifølge DinGeo-opslag for Sundgade 1.
 - Skoler/daginstitutioner: Skoledistrikter nævnes som Dybbøl-Skolen og Sønderskov-Skole i DinGeo-opslag for Sundgade 1; nærmeste registrerede daginstitution ca. 550 m. Bør verificeres aktuelt.
-- Grønne områder: Sønderborg Slotspark og ophold langs vandet.
-- Cafeer/restauranter: Centrum/gågade og havnemiljøet ligger tæt på.
+- Grønne områder: Ophold langs vandet på Sundgade/Alsion-siden samt Sønderborg Slotspark på modsatte side af sundet.
+- Cafeer/restauranter: Centrum/gågade, Borgen og havnemiljøet ligger på modsatte side af sundet og nås via broen.
 - Vand/havn/strand: Alssund, havnemiljøet, strandpromenaden og udsigt mod Christian X's Bro.
 - Cykelafstand til relevante steder:
-- Hvad kan du bedst lide ved området? Tæt på Alssund, Sønderborg Slot, Christian X's Bro, centrum, station/bus og universitet.
-  Referenceannonce fra Nørre Havnegade kan bruges som inspiration til overførbare områdeargumenter: vandnær beliggenhed, gåture langs sundet, nærhed til byliv, indkøb, cafeer/restauranter, bus, lægehus, Slotsparken og havnemiljøet. Undgå at overføre bygningsspecifikke fakta som elevator, penthouse, sydvestvendt altan og præcise afstande, medmindre de er bekræftet for Sundgade 1.
+- Hvad kan du bedst lide ved området? Tæt på Alssund, Christian X's Bro, station, Alsion/SDU og universitetet på samme side af sundet; Borgen, Sønderborg Slot, busstation, gågade og centrum ligger på modsatte side.
+  Referenceannonce fra Nørre Havnegade kan bruges som inspiration til overførbare områdeargumenter: vandnær beliggenhed, gåture langs sundet, nærhed til byliv, indkøb, cafeer/restauranter, bus, lægehus, Slotsparken og havnemiljøet. Husk at Sundgade 1 ligger på modsatte side af sundet i forhold til Nørre Havnegade-annonceeksemplet: samme side som Alsion/SDU og stationen, modsat Borgen, Sønderborg Slot og busstationen. Undgå at overføre bygningsspecifikke fakta som elevator, penthouse, sydvestvendt altan og præcise afstande, medmindre de er bekræftet for Sundgade 1.
 - Institutions-/skoletal til områdeblok: Sønderborg har ifølge Minly ca. 50 daginstitutioner, heraf 20 børnehaver og 22 integrerede børnehave/vuggestue-tilbud. DinGeo viser 37 grundskoler i Sønderborg Kommune. Dybbøl-Skolen: 829 elever, trivsel 3,70, karaktergns. 7,5. Sønderskov-Skolen: 630 elever, trivsel 3,60, karaktergns. 7,0. Tal bør verificeres før endelig offentlig brug.
 
 ## 8. Billeder

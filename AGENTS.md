@@ -62,9 +62,10 @@ Use these as the currently known facts unless the user changes them:
 - Contact: Søren, soren.petersen95@gmail.com.
 - Phone should not be shown publicly for now.
 - Nearby-distance copy currently uses approximate public data: nearest grocery
-  about 500 m, Apoteket Borgen about 600 m, nearest registered daycare about
-  550 m, and school districts mentioned as Dybbøl-Skolen/Sønderskov-Skole.
-  Treat these as approximate and verify before making them more definitive.
+  about 500 m, Apoteket Borgen/Borgen about 600 m on the opposite side of the
+  bridge, nearest registered daycare about 550 m, and school districts mentioned
+  as Dybbøl-Skolen/Sønderskov-Skole. Treat these as approximate and verify before
+  making them more definitive.
 - Institution stats currently shown: about 50 day institutions in Sønderborg
   according to Minly; 37 ground schools in Sønderborg Kommune according to
   DinGeo; Dybbøl-Skolen 829 pupils, wellbeing 3.70, grade average 7.5;
@@ -93,6 +94,11 @@ Current positioning:
   Sønderborg Slot and Slotsparken. Do not reuse exact phrasing or transfer
   building-specific facts such as elevator, penthouse, southwest balcony, or
   exact distances unless verified for Sundgade 1.
+- Important location orientation: Sundgade 1 is on the opposite side of Alssund
+  from the Nørre Havnegade inspiration listing. It is on the same side as
+  Alsion/SDU and Sønderborg Station, and opposite Borgen, Sønderborg Slot and
+  the bus station. Public copy should describe those opposite-side amenities as
+  reached over/across the bridge rather than implying they are on the same side.
 - Practical layout: kitchen-living room, two bedrooms, bathroom, hallway/entry,
   balcony.
 - Relevant to couples, singles, students needing extra space, or a buyer wanting
@@ -240,6 +246,16 @@ GitHub Pages should be configured as:
 - Added a document/sales-information section, expanded room-by-room copy, and
   made the economy/facts section more complete while keeping unknown figures
   marked as to be clarified rather than inventing current values.
+- Cleaned public-facing copy to read more like a polished listing: fewer visible
+  caveats, AUBO mentioned only where useful, and distance values shown without
+  repeated "ca." prefixes.
+- Tested responsive preview through a local HTTP server at 360/390 mobile, 768
+  tablet, 1366 laptop and 1440 desktop widths. `index.html` and `gallery.html`
+  had no broken images and no horizontal overflow after adding a cache-busted
+  stylesheet link and tightening mobile nav wrapping.
+- Corrected public location copy so Sundgade is described on the Alsion/SDU and
+  station side of Alssund, with Borgen, Sønderborg Slot and the bus station on
+  the opposite side reached over the bridge.
 
 ## Known Open Items
 
