@@ -50,7 +50,10 @@ Use these as the currently known facts unless the user changes them:
   known 93 m2 + 6 m2 balcony distinction.
 - Tinglyst area: 86 m2 according to 2020 sales material.
 - Rooms: 3 rooms, including 2 bedrooms.
+- Bad/toilet: 1 bathroom and 1 toilet.
+- Plan: 1.
 - Asking price: 2.650.000 kr.
+- Calculated 5% down payment shown publicly: 132.500 kr.
 - Common expenses: 3.650 kr./md.
 - Heating: 7.920 kr. aconto / 7.440 kr. used last year, per user input.
 - Energy label: C, per user input.
@@ -65,11 +68,10 @@ Use these as the currently known facts unless the user changes them:
 - Internet: Fiber installed.
 - Contact: Søren, soren.petersen95@gmail.com.
 - Phone should not be shown publicly for now.
-- Nearby-distance copy currently uses approximate public data: nearest grocery
-  about 500 m, Apoteket Borgen/Borgen about 600 m on the opposite side of the
-  bridge, nearest registered daycare about 550 m, and school districts mentioned
-  as Dybbøl-Skolen/Sønderskov-Skole. Treat these as approximate and verify before
-  making them more definitive.
+- Nearby-distance copy currently uses user-provided public-facing distances:
+  about 50 m to bus stop, SDU, Alsion/concert hall and Sønderborg Station, and
+  about 300 m to the beach. City life/Borgen/slot/cafés/restaurants are still
+  described as over the bridge on the opposite side of Alssund.
 - Institution stats currently shown: about 50 day institutions in Sønderborg
   according to Minly; 37 ground schools in Sønderborg Kommune according to
   DinGeo; Dybbøl-Skolen 829 pupils, wellbeing 3.70, grade average 7.5;
@@ -260,6 +262,10 @@ GitHub Pages should be configured as:
 - Latest user copy also emphasizes Skanserne, stranden, 100 m2 bruttoareal inkl.
   altan/depotrum, and a shorter public contact paragraph without the seller's
   first name in the body text.
+- Added a fuller Boligfakta-style detail list using the apartment's own facts:
+  udbudsform, plan, bad, toilet, boligareal, bruttoareal and varmekilde. Do not
+  copy B energy label, 2008 build year, 3rd floor, 2 rooms, 91 m2 or 10 m2
+  balcony from the comparison listing.
 - Updated the area/location section with more water-and-city positioning based
   on transferable inspiration from a nearby Nørre Havnegade listing.
 - Added an "Udvalgte hverdagsafstande" block for grocery, pharmacy, daycare,
@@ -287,6 +293,9 @@ GitHub Pages should be configured as:
 - Boat spot no. C should remain unconfirmed until the user verifies it.
 - Some financial fields remain "oplyses ved henvendelse" or should be verified
   from current documents.
+- The public economy block currently hides unknown/unverified financial rows
+  rather than showing placeholders. Add them back only when current numbers are
+  available.
 - The site may eventually need downloadable documents, if the user provides
   approved public PDFs.
 - If adding new source documents, avoid committing private purchase contracts or
