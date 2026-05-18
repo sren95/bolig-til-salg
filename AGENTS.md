@@ -35,6 +35,10 @@ changes, keep it updated, and use it as project memory.
 - `picture_raw/`: Raw HEIC source photos from the user.
 - `scripts/update-gallery-manifest.mjs`: Regenerates the gallery manifest from
   the files that actually exist in `assets/gallery/`.
+- `scripts/generate-qr-code.py`: Regenerates the QR code PNG for the website
+  URL.
+- `scripts/requirements-qr.txt`: Python dependency for QR generation.
+- `qr-code.png`: Current QR code image for the public website URL.
 - `Screenshot 2026-05-13 at 21.04.02.png`: Current floor plan image.
 
 ## Current Property Facts
@@ -285,6 +289,8 @@ GitHub Pages should be configured as:
 - Corrected public location copy so Sundgade is described on the Alsion/SDU and
   station side of Alssund, with Borgen, Sønderborg Slot and the bus station on
   the opposite side reached over the bridge.
+- Added `scripts/generate-qr-code.py` and `scripts/requirements-qr.txt` so the
+  QR code can be regenerated for the GitHub Pages URL.
 
 ## Known Open Items
 
@@ -300,3 +306,6 @@ GitHub Pages should be configured as:
   approved public PDFs.
 - If adding new source documents, avoid committing private purchase contracts or
   sensitive personal documents unless the user explicitly asks.
+- To regenerate the QR code, install the QR dependency if needed:
+  `python3 -m pip install -r scripts/requirements-qr.txt`, then run
+  `python3 scripts/generate-qr-code.py`.
