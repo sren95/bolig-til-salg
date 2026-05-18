@@ -52,6 +52,12 @@
     let images = [];
     let currentIndex = 0;
 
+    function requestedImageIndex() {
+      const requested = new URLSearchParams(window.location.search).get("image");
+      if (!requested) return -1;
+      return images.findIndex((image) => image.src === requested);
+    }
+
     function openSlideshow(index) {
       currentIndex = index;
       renderSlide();
@@ -101,6 +107,8 @@
         if (!response.ok) throw new Error("Manifest kunne ikke indlæses");
         images = await response.json();
         renderGallery();
+        const initialIndex = requestedImageIndex();
+        if (initialIndex >= 0) openSlideshow(initialIndex);
       } catch {
         galleryStatus.textContent = "Galleriet kunne ikke indlæses. Opdater gallery-manifest.json.";
       }

@@ -8,6 +8,7 @@ const preferredOrder = [
   "outside-across-water-marked.jpg.png",
   "IMG_2006.jpg",
   "IMG_2381.jpg",
+  "plantegning.png",
   "IMG_6150.jpg",
   "IMG_6149.PNG",
   "IMG_6129.jpg",
@@ -23,6 +24,9 @@ const preferredOrder = [
   "IMG_2851.jpg"
 ];
 const preferredRank = new Map(preferredOrder.map((file, index) => [file, index]));
+const labelOverrides = new Map([
+  ["plantegning.png", "Plantegning"]
+]);
 
 const files = (await readdir(galleryDir))
   .filter((file) => allowedExtensions.has(path.extname(file).toLowerCase()))
@@ -35,7 +39,7 @@ const files = (await readdir(galleryDir))
 
 const manifest = files.map((file, index) => ({
   src: `assets/gallery/${file}`,
-  label: `Billede ${index + 1} af ${files.length}`
+  label: labelOverrides.get(file) ?? `Billede ${index + 1} af ${files.length}`
 }));
 
 await writeFile(outputPath, `${JSON.stringify(manifest, null, 2)}\n`);

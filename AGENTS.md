@@ -31,6 +31,7 @@ changes, keep it updated, and use it as project memory.
 - `assets/gallery/`: Web-friendly gallery images used by `gallery.html`.
 - `assets/gallery/gallery-manifest.json`: Generated list of actual gallery
   images. `gallery.html` reads this file so deleted images do not show as blank.
+- `assets/gallery/plantegning.png`: Gallery copy of the floor plan.
 - `picture_raw/`: Raw HEIC source photos from the user.
 - `scripts/update-gallery-manifest.mjs`: Regenerates the gallery manifest from
   the files that actually exist in `assets/gallery/`.
@@ -237,6 +238,12 @@ GitHub Pages should be configured as:
 - Set `assets/photos/outside-across-water-marked.png` as the primary front-page
   image and added preferred ordering to the gallery manifest script so the
   location/exterior/view images appear first.
+- Made front-page images click through to `gallery.html` with an `image`
+  parameter so the matching image opens directly in the slideshow.
+- Added the floor plan to the gallery as `assets/gallery/plantegning.png`, with
+  a custom "Plantegning" label in the manifest.
+- Added a bottom gallery strip before the contact section, including balcony,
+  living space and floor plan entry points.
 - Updated the area/location section with more water-and-city positioning based
   on transferable inspiration from a nearby Nørre Havnegade listing.
 - Added an "Udvalgte hverdagsafstande" block for grocery, pharmacy, daycare,

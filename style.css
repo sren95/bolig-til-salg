@@ -93,6 +93,8 @@ main {
   background:
     linear-gradient(135deg, rgba(54, 95, 125, 0.72), rgba(99, 123, 104, 0.72)),
     repeating-linear-gradient(45deg, rgba(255,255,255,0.12) 0 12px, transparent 12px 24px);
+  color: inherit;
+  text-decoration: none;
 }
 
 .photo-slot img {
@@ -265,12 +267,15 @@ dt {
 
 .gallery-item {
   position: relative;
+  display: block;
   min-height: 240px;
   margin: 0;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
+  color: inherit;
+  text-decoration: none;
 }
 
 .gallery-item-wide {
@@ -286,7 +291,7 @@ dt {
   object-fit: cover;
 }
 
-.gallery-item figcaption {
+.gallery-caption {
   position: absolute;
   left: 12px;
   bottom: 12px;
@@ -297,6 +302,21 @@ dt {
   color: var(--ink);
   font-size: 13px;
   font-weight: 800;
+}
+
+.photo-slot img,
+.gallery-item img,
+.floorplan-card img {
+  transition: transform 180ms ease;
+}
+
+.photo-slot:hover img,
+.photo-slot:focus-visible img,
+.gallery-item:hover img,
+.gallery-item:focus-visible img,
+.floorplan-card a:hover img,
+.floorplan-card a:focus-visible img {
+  transform: scale(1.02);
 }
 
 .gallery-page main {
@@ -713,6 +733,7 @@ dd {
 
 .floorplan-card a {
   display: block;
+  overflow: hidden;
   padding: clamp(16px, 3vw, 28px);
   background: #f5f6f3;
 }
@@ -731,6 +752,28 @@ dd {
   color: var(--muted);
   font-size: 14px;
   line-height: 1.6;
+}
+
+.bottom-gallery-strip {
+  display: grid;
+  grid-template-columns: 0.78fr 1.22fr;
+  gap: clamp(28px, 6vw, 88px);
+  padding: 72px 0;
+  border-top: 1px solid var(--line);
+}
+
+.bottom-gallery-strip h2 {
+  max-width: 420px;
+}
+
+.bottom-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.bottom-gallery-grid .gallery-item {
+  min-height: 230px;
 }
 
 .contact {
@@ -771,7 +814,8 @@ dd {
 @media (max-width: 920px) {
   .hero,
   .section-grid,
-  .details {
+  .details,
+  .bottom-gallery-strip {
     grid-template-columns: 1fr;
   }
 
@@ -798,6 +842,10 @@ dd {
 
   .nearby-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .bottom-gallery-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .full-gallery-grid {
@@ -847,6 +895,10 @@ dd {
   }
 
   .nearby-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bottom-gallery-grid {
     grid-template-columns: 1fr;
   }
 
@@ -903,7 +955,8 @@ dd {
   }
 
   .section-grid,
-  .details {
+  .details,
+  .bottom-gallery-strip {
     padding: 48px 0;
   }
 
