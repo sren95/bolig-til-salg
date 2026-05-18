@@ -11,6 +11,7 @@ from pathlib import Path
 DEFAULT_URL = "https://sren95.github.io/bolig-til-salg/"
 DEFAULT_OUTPUT = "qr-code.png"
 DEFAULT_CENTER_TEXT = "Sundgade 1"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
 def parse_args() -> argparse.Namespace:
@@ -126,6 +127,8 @@ def main() -> int:
         return 1
 
     output = Path(args.output)
+    if args.output == DEFAULT_OUTPUT and not output.is_absolute():
+        output = PROJECT_ROOT / output
     output.parent.mkdir(parents=True, exist_ok=True)
 
     qr = qrcode.QRCode(

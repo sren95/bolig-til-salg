@@ -286,11 +286,16 @@ GitHub Pages should be configured as:
   tablet, 1366 laptop and 1440 desktop widths. `index.html` and `gallery.html`
   had no broken images and no horizontal overflow after adding a cache-busted
   stylesheet link and tightening mobile nav wrapping.
+- Fixed mobile hero image rendering by making the top photo-slot images fill
+  their slots absolutely, increasing the two smaller mobile rows, and bumping
+  the stylesheet query string to `style.css?v=2026-05-18`.
 - Corrected public location copy so Sundgade is described on the Alsion/SDU and
   station side of Alssund, with Borgen, Sønderborg Slot and the bus station on
   the opposite side reached over the bridge.
 - Added `scripts/generate-qr-code.py` and `scripts/requirements-qr.txt` so the
-  QR code can be regenerated for the GitHub Pages URL.
+  QR code can be regenerated for the GitHub Pages URL. The QR script adds a
+  centered "Sundgade 1" label by default; use `--center-text` to change it or
+  `--no-center-text` for a plain QR code.
 
 ## Known Open Items
 
