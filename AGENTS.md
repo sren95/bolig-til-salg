@@ -45,6 +45,9 @@ Use these as the currently known facts unless the user changes them:
 - Type: Ejerlejlighed.
 - Floor: 4th floor, no elevator.
 - Size: 93 m2 + 6 m2 balcony.
+- Front-page facts may present this as "100 m2 inkl. altan" / gross area for a
+  simple buyer-facing overview, while detailed copy should still preserve the
+  known 93 m2 + 6 m2 balcony distinction.
 - Tinglyst area: 86 m2 according to 2020 sales material.
 - Rooms: 3 rooms, including 2 bedrooms.
 - Asking price: 2.650.000 kr.
@@ -80,7 +83,8 @@ Use these as the currently known facts unless the user changes them:
 - New low-energy windows and new bay window/karnap in 2023.
 - New main door to the stairwell in 2024.
 - Balcony from 2025 with access through a door in the bay window/karnap.
-- Balcony/view over Alssund and the bridge.
+- Balcony from 2025 hangs directly over Alssund/the water, with view over
+  Alssund and the bridge. This is a key sales point and should be emphasized.
 
 ## Text And Positioning
 
@@ -244,6 +248,18 @@ GitHub Pages should be configured as:
   a custom "Plantegning" label in the manifest.
 - Added a bottom gallery strip before the contact section, including balcony,
   living space and floor plan entry points.
+- Reworked the main public-facing copy toward a more polished real-estate sales
+  tone, with stronger focus on light, view, opholdsmiljø, altan and location,
+  while preserving factual private-sale framing.
+- Updated the headline and balcony copy to emphasize that the balcony is
+  directly over the water/Alssund.
+- User prefers the current opening direction: "Penthouse-lejlighed med altan over
+  Alssund", stronger emphasis on Sønderborg Slot, cafélivet, bridge opening,
+  boat traffic, sunrise behind the city, and a more polished premium listing
+  tone.
+- Latest user copy also emphasizes Skanserne, stranden, 100 m2 bruttoareal inkl.
+  altan/depotrum, and a shorter public contact paragraph without the seller's
+  first name in the body text.
 - Updated the area/location section with more water-and-city positioning based
   on transferable inspiration from a nearby Nørre Havnegade listing.
 - Added an "Udvalgte hverdagsafstande" block for grocery, pharmacy, daycare,
