@@ -305,6 +305,12 @@ GitHub Pages should be configured as:
   `salgsopstilling-sundgade-1.pdf`. The PDF is intended to be sent as the main
   document to interested buyers/banks, with underlying PDFs from
   `documentation/` as supporting attachments.
+- Updated the public economy section on `index.html` so the 3.650 kr./md.
+  amount is clearly presented as the total monthly owner expense, with
+  fællesudgifter, aconto varme, aconto vand and trapperengøring shown as
+  sub-items of that same amount. Added annual/other rows for 2025 heat/water
+  consumption, property tax, ground tax, insurance information and bumped the
+  stylesheet query string to `style.css?v=2026-05-19`.
 
 ## Known Open Items
 
