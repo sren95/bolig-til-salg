@@ -23,18 +23,38 @@ er klar endnu. Jeg kan sagtens arbejde videre med et delvist udfyldt dokument.
 - Husdyr tilladt: Ja
 - Overtagelse: Flexibel
 
+
+
 ## 2. Pris og økonomi
 
-- Udbudspris: 2.650.000
-- Ejerudgift pr. måned:
-- Fællesudgifter pr. måned: 3.650
-- Aconto varme (): 7.920 / 7.440 brugt sidste år
-- Aconto vand: afklares i salgsdokumenter
-- Ejendomsskat/grundskyld: afklares i salgsdokumenter
-- Eventuel gæld i foreningen: bør verificeres hos ejerforening/administrator
+- Udbudspris: 2.650.000 kr.
+- Ejerudgift pr. måned: 3.650 kr.
+
+### Ejerudgift indeholder
+- Fællesudgifter: 2.345 kr./md.
+- Aconto varme: 660 kr./md.
+- Aconto vand: 332 kr./md.
+- Trapperengøring: 313 kr./md.
+
+### Forbrug og energi
+- Faktisk varme- og varmtvandsforbrug 2025: 7.439 kr./år
+- Samlet varmeforbrug: 7.576 kWh
+- Varmtvandsforbrug: 16,75 m³
+- Opvarmning: Fjernvarme
 - Energimærke: C
-- Internet/tv-forhold: fiber internet installeret
-- Andre faste udgifter: -
+
+### Øvrigt
+- Fiberinternet installeret
+- Husforsikring inkluderet via ejerforening
+- Indboforsikring: ca. 4.200 kr./år
+- Ejendomsskat: 6.259 kr./år
+- Grundskyld: 4.324 kr./år
+- Foreningen Økonomi:
+  - ejerforeningen har over 1,18 mio. kr. i likvide beholdninger 
+  - revisor har ingen bemærkninger til regnskabet 
+  - der budgetteres med vedligeholdelse løbende 
+
+
 
 ## 3. Kort salgstekst
 
