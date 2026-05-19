@@ -311,6 +311,9 @@ GitHub Pages should be configured as:
   sub-items of that same amount. Added annual/other rows for 2025 heat/water
   consumption, property tax, ground tax, insurance information and bumped the
   stylesheet query string to `style.css?v=2026-05-19`.
+- Added public download links for `salgsopstilling-sundgade-1.pdf` in the top
+  navigation and as a simple button in the contact section. Bumped the
+  stylesheet query string to `style.css?v=2026-05-19-2`.
 
 ## Known Open Items
 

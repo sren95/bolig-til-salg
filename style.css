@@ -847,6 +847,13 @@ dd {
   margin: 14px 0 0;
 }
 
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
 .disclaimer {
   margin-top: 24px;
   padding: 24px 0 0;
@@ -891,7 +898,8 @@ dd {
     grid-template-columns: 1fr;
   }
 
-  .contact {
+  .contact,
+  .contact-actions {
     align-items: flex-start;
     flex-direction: column;
   }
