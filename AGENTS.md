@@ -74,6 +74,8 @@ Use these as the currently known facts unless the user changes them:
 - Storage/cellar: Private depot/storage room included.
 - Bike parking: Yes.
 - Internet: Fiber installed.
+- Unique feature: remote-controlled skylight/ovenlysvindue with extra daylight
+  and easy ventilation.
 - Contact: Søren, soren.petersen95@gmail.com.
 - Phone should not be shown publicly for now.
 - Nearby-distance copy currently uses user-provided public-facing distances:
@@ -124,6 +126,14 @@ Current positioning:
   general disclaimer or internal notes.
 - Mention brands such as AUBO only where they add concrete value, not repeatedly
   in headlines and intro copy.
+
+Buyer-message preference:
+
+- For broad first-contact questions such as whether the apartment is still for
+  sale, whether viewing is possible, or what the annual/monthly expenses are,
+  answer politely and refer to the website plus the sales statement for facts
+  and economy before proposing a specific viewing time, unless the user asks to
+  suggest a time.
 
 Text reused from older sales material should be paraphrased and updated. The
 old sales listing was useful for ideas like:
@@ -314,6 +324,9 @@ GitHub Pages should be configured as:
 - Added public download links for `salgsopstilling-sundgade-1.pdf` in the top
   navigation and as a simple button in the contact section. Bumped the
   stylesheet query string to `style.css?v=2026-05-19-2`.
+- Added the remote-controlled skylight/ovenlysvindue as a unique feature in the
+  public site copy, the PDF sales statement source, and the property-info
+  template.
 
 ## Known Open Items
 

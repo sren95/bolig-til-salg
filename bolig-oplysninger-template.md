@@ -45,6 +45,7 @@ er klar endnu. Jeg kan sagtens arbejde videre med et delvist udfyldt dokument.
 
 ### Øvrigt
 - Fiberinternet installeret
+- Fjernstyret ovenlysvindue giver ekstra lys og mulighed for nem udluftning
 - Husforsikring inkluderet via ejerforening
 - Indboforsikring: ca. 4.200 kr./år
 - Ejendomsskat: 6.259 kr./år
@@ -93,6 +94,7 @@ Skriv gerne 5-10 korte punkter.
 - Privat parkeringsmulighed.
 - Historisk materiale nævner privat bådplads nr. C; skal bekræftes som aktuel.
 - Fiberinternet installeret.
+- Fjernstyret ovenlysvindue.
 - Totalrenoveret/totalistandsat i 2018.
 - Fjernvarme til alle lejligheder i ejerforeningen i 2022.
 - Nye lavenergivinduer og ny karnap i 2023.
@@ -112,7 +114,7 @@ Skriv gerne 5-10 korte punkter.
 - Beskrivelse: Stort åbent opholdsrum i forbindelse med køkkenet.
 - Lys/udsigt: Udsigt mod Alssund og broen. Tidligere salgsopstilling fremhæver også udsigt mod vandet, Sønderborg Slot og Christian X's Bro.
 - Plads til: Sofaområde, spiseplads og samlingspunkt i hverdagen.
-- Særlige detaljer: Åben forbindelse mellem køkken og stue. Ny karnap og lavenergivinduer fra 2023 samt adgang til altan via dør i karnappen fra 2025.
+- Særlige detaljer: Åben forbindelse mellem køkken og stue. Fjernstyret ovenlysvindue med ekstra dagslys og mulighed for nem udluftning. Ny karnap og lavenergivinduer fra 2023 samt adgang til altan via dør i karnappen fra 2025.
 
 ### Køkken
 
