@@ -1,5 +1,3 @@
-# Facebook-opslag
-
 Penthouse-lejlighed til salg på Sundgade i Sønderborg
 
 3-værelses ejerlejlighed på Sundgade 1, 4.th sælges privat.
