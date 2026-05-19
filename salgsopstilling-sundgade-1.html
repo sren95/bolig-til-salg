@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Salgsopstilling - Sundgade 1, 4.th</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 14mm;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: #17201b;
+      background: #f4f1eb;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.45;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      background: #fbfaf7;
+      padding: 0;
+    }
+
+    .cover {
+      position: relative;
+      min-height: 270mm;
+      padding: 16mm;
+      color: #fff;
+      overflow: hidden;
+      background: #18231d;
+      page-break-after: always;
+    }
+
+    .cover img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.62);
+    }
+
+    .cover-content {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      min-height: 238mm;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .kicker {
+      margin: 0 0 8px;
+      color: #a97b3b;
+      font-size: 8.5pt;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+
+    .cover .kicker {
+      color: #f1c57d;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      max-width: 145mm;
+      margin-bottom: 12px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34pt;
+      font-weight: 400;
+      line-height: 1.03;
+    }
+
+    h2 {
+      margin-bottom: 12px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 19pt;
+      font-weight: 400;
+      line-height: 1.12;
+      color: #16251e;
+    }
+
+    h3 {
+      margin-bottom: 6px;
+      font-size: 11pt;
+      color: #16251e;
+    }
+
+    .lead {
+      max-width: 138mm;
+      font-size: 12pt;
+    }
+
+    .cover-meta {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .cover-meta article {
+      padding: 11px;
+      background: rgba(12, 18, 15, 0.72);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+    }
+
+    .cover-meta span,
+    .facts span,
+    .small-label {
+      display: block;
+      margin-bottom: 4px;
+      color: #6e756f;
+      font-size: 8pt;
+      font-weight: 700;
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+    }
+
+    .cover-meta span {
+      color: #d8d1c5;
+    }
+
+    .cover-meta strong,
+    .facts strong {
+      display: block;
+      font-size: 13pt;
+      line-height: 1.2;
+    }
+
+    .cost-summary {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8mm;
+      margin-bottom: 8mm;
+      padding: 12px;
+      background: #fff;
+      border: 2px solid #a97b3b;
+    }
+
+    .cost-summary strong {
+      display: block;
+      margin-bottom: 4px;
+      color: #16251e;
+      font-size: 19pt;
+      line-height: 1.1;
+    }
+
+    .cost-summary p {
+      margin-bottom: 0;
+      color: #424941;
+    }
+
+    .content {
+      padding: 13mm 15mm;
+      page-break-after: always;
+    }
+
+    .content:last-child {
+      page-break-after: auto;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: 45mm 1fr;
+      gap: 12mm;
+      margin-bottom: 12mm;
+      padding-bottom: 7mm;
+      border-bottom: 1px solid #d8d2c6;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-bottom: 13mm;
+    }
+
+    .facts article {
+      min-height: 28mm;
+      padding: 12px;
+      background: #fff;
+      border: 1px solid #ded8cc;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10mm;
+      align-items: start;
+    }
+
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border: 1px solid #ded8cc;
+    }
+
+    .table th,
+    .table td {
+      padding: 8px 9px;
+      vertical-align: top;
+      border-bottom: 1px solid #e8e2d8;
+      text-align: left;
+    }
+
+    .table th {
+      width: 44%;
+      color: #5b635d;
+      font-weight: 700;
+      background: #f3efe7;
+    }
+
+    .table tr:last-child th,
+    .table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .list {
+      margin: 0;
+      padding-left: 17px;
+    }
+
+    .list li {
+      margin-bottom: 5px;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8mm;
+    }
+
+    figure {
+      margin: 0;
+      background: #fff;
+      border: 1px solid #ded8cc;
+      break-inside: avoid;
+    }
+
+    figure img {
+      display: block;
+      width: 100%;
+      height: 62mm;
+      object-fit: cover;
+    }
+
+    .floorplan img {
+      height: auto;
+      max-height: 170mm;
+      object-fit: contain;
+      background: #fff;
+    }
+
+    figcaption {
+      padding: 8px 10px;
+      color: #434b45;
+      font-size: 9pt;
+    }
+
+    .note {
+      margin-top: 8mm;
+      padding: 10px 12px;
+      color: #424941;
+      background: #efe8dc;
+      border-left: 4px solid #a97b3b;
+    }
+
+    .document-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7px;
+      margin-top: 6mm;
+    }
+
+    .document-list article {
+      padding: 9px 10px;
+      background: #fff;
+      border: 1px solid #ded8cc;
+      break-inside: avoid;
+    }
+
+    .document-list strong {
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .footer-line {
+      margin-top: 12mm;
+      padding-top: 6mm;
+      border-top: 1px solid #d8d2c6;
+      color: #5c645d;
+      font-size: 9pt;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: auto;
+        min-height: auto;
+      }
+
+      .content,
+      .cover {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="cover">
+      <img src="assets/photos/outside-across-water-marked.png" alt="Ejendommen ved Alssund" />
+      <div class="cover-content">
+        <div>
+          <p class="kicker">Privat salgsopstilling · Sønderborg</p>
+          <h1>Penthouse-lejlighed med altan over Alssund</h1>
+          <p class="lead">
+            Sundgade 1, 4.th, 6400 Sønderborg. Gennemrenoveret ejerlejlighed på
+            4. sal med åbent opholdsmiljø, to værelser og ny altan fra 2025
+            direkte over vandet.
+          </p>
+        </div>
+
+        <div>
+          <div class="cover-meta">
+            <article>
+              <span>Udbudspris</span>
+              <strong>2.650.000 kr.</strong>
+            </article>
+            <article>
+              <span>Boligareal</span>
+              <strong>93 m2 + 6 m2 altan</strong>
+            </article>
+            <article>
+              <span>Værelser</span>
+              <strong>3, heraf 2 soveværelser</strong>
+            </article>
+            <article>
+              <span>Energimærke</span>
+              <strong>C</strong>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="section-head">
+        <div>
+          <p class="kicker">Overblik</p>
+          <h2>Boligen kort</h2>
+        </div>
+        <p>
+          En lys og veldisponeret ejerlejlighed ved Alssund med udsigt mod
+          vandet, Sønderborg Slot og Christian X's Bro. Boligens naturlige
+          samlingspunkt er det store opholdsrum, hvor stue og AUBO-køkken
+          ligger i åben forbindelse, og hvor karnappen giver direkte adgang til
+          altanen over vandet.
+        </p>
+      </div>
+
+      <div class="facts">
+        <article>
+          <span>Adresse</span>
+          <strong>Sundgade 1, 4.th</strong>
+          6400 Sønderborg
+        </article>
+        <article>
+          <span>Type</span>
+          <strong>Ejerlejlighed</strong>
+          Privat salg
+        </article>
+        <article>
+          <span>Etage</span>
+          <strong>4. sal</strong>
+          Uden elevator
+        </article>
+        <article>
+          <span>Bruttooverblik</span>
+          <strong>100 m2</strong>
+          Inkl. altan og depotrum
+        </article>
+        <article>
+          <span>Overtagelse</span>
+          <strong>Fleksibel</strong>
+          Aftales nærmere
+        </article>
+        <article>
+          <span>Kontakt</span>
+          <strong>Søren</strong>
+          soren.petersen95@gmail.com
+        </article>
+      </div>
+
+      <div class="two-col">
+        <div>
+          <h3>Væsentlige salgsargumenter</h3>
+          <ul class="list">
+            <li>Altan fra 2025 direkte over Alssund med adgang via dør i karnappen.</li>
+            <li>Udsigt over Alssund, Christian X's Bro og Sønderborg Slot.</li>
+            <li>Stort køkken-alrum/stue som naturligt opholdsrum.</li>
+            <li>To regulære værelser med mulighed for soveværelse, kontor eller gæsteværelse.</li>
+            <li>Privat depotrum, cykelparkering, vaskerum og parkeringsmulighed.</li>
+            <li>Fiberinternet installeret og husdyr tilladt.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Forbedringer</h3>
+          <ul class="list">
+            <li>Totalrenoveret/totalistandsat i 2018.</li>
+            <li>Fjernvarme etableret til alle lejligheder i ejerforeningen i 2022.</li>
+            <li>Nye lavenergivinduer og ny karnap i 2023.</li>
+            <li>Ny hoveddør til opgangen i 2024.</li>
+            <li>Ny altan fra 2025 med adgang fra karnappen.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="section-head">
+        <div>
+          <p class="kicker">Økonomi</p>
+          <h2>Nøgletal til bank</h2>
+        </div>
+        <p>
+          Nedenstående tal er samlet til brug for købers og banks indledende
+          vurdering. Den faste månedlige ejerudgift er vist samlet først, og
+          derefter opdelt i de poster, beløbet består af.
+        </p>
+      </div>
+
+      <div class="cost-summary">
+        <div>
+          <span class="small-label">Samlede faste udgifter pr. måned</span>
+          <strong>3.650 kr./md.</strong>
+          <p>
+            Beløbet er den samlede månedlige ejerudgift oplyst for boligen.
+          </p>
+        </div>
+        <div>
+          <span class="small-label">Opdeling af samme beløb</span>
+          <p>
+            2.345 kr. fællesudgifter + 660 kr. aconto varme + 332 kr. aconto
+            vand + 313 kr. trapperengøring = 3.650 kr./md.
+          </p>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Udbudspris</th>
+              <td>2.650.000 kr.</td>
+            </tr>
+            <tr>
+              <th>5% udbetaling</th>
+              <td>132.500 kr.</td>
+            </tr>
+            <tr>
+              <th>Samlet ejerudgift pr. måned</th>
+              <td>3.650 kr./md.</td>
+            </tr>
+            <tr>
+              <th>Heraf fællesudgifter</th>
+              <td>2.345 kr./md.</td>
+            </tr>
+            <tr>
+              <th>Heraf aconto varme</th>
+              <td>660 kr./md.</td>
+            </tr>
+            <tr>
+              <th>Heraf aconto vand</th>
+              <td>332 kr./md.</td>
+            </tr>
+            <tr>
+              <th>Heraf trapperengøring</th>
+              <td>313 kr./md.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Faktisk varme og varmtvand 2025</th>
+              <td>7.439 kr./år</td>
+            </tr>
+            <tr>
+              <th>Varmeforbrug</th>
+              <td>7.576 kWh</td>
+            </tr>
+            <tr>
+              <th>Varmtvandsforbrug</th>
+              <td>16,75 m3</td>
+            </tr>
+            <tr>
+              <th>Ejendomsskat</th>
+              <td>6.259 kr./år</td>
+            </tr>
+            <tr>
+              <th>Grundskyld</th>
+              <td>4.324 kr./år</td>
+            </tr>
+            <tr>
+              <th>Husforsikring</th>
+              <td>Inkluderet via ejerforeningen</td>
+            </tr>
+            <tr>
+              <th>Indboforsikring</th>
+              <td>Ca. 4.200 kr./år</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note">
+        De fire delposter ovenfor er en specifikation af den samlede månedlige
+        ejerudgift på 3.650 kr./md. De skal derfor ikke lægges oven i beløbet.
+        Ejerforeningen er oplyst med over 1,18 mio. kr. i likvide beholdninger,
+        revisor uden bemærkninger til regnskabet og løbende budgettering til
+        vedligeholdelse. Se bilag for budget, fællesudgifter, referat og
+        revisionsmateriale.
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="section-head">
+        <div>
+          <p class="kicker">Boligfakta</p>
+          <h2>Tekniske oplysninger</h2>
+        </div>
+        <p>
+          Oplysningerne nedenfor samler de vigtigste boligdata for ejendommen og
+          lejligheden. Arealer, plan og tekniske oplysninger bør verificeres i
+          BBR, tinglysning og ejerforeningens materiale.
+        </p>
+      </div>
+
+      <div class="two-col">
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Boligtype</th>
+              <td>Ejerlejlighed</td>
+            </tr>
+            <tr>
+              <th>Udbudsform</th>
+              <td>Salg</td>
+            </tr>
+            <tr>
+              <th>Plan</th>
+              <td>1</td>
+            </tr>
+            <tr>
+              <th>Værelser</th>
+              <td>3</td>
+            </tr>
+            <tr>
+              <th>Soveværelser</th>
+              <td>2</td>
+            </tr>
+            <tr>
+              <th>Bad/toilet</th>
+              <td>1 bad og 1 toilet</td>
+            </tr>
+            <tr>
+              <th>Boligareal</th>
+              <td>93 m2</td>
+            </tr>
+            <tr>
+              <th>Altan</th>
+              <td>6 m2, etableret 2025</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Tinglyst areal</th>
+              <td>86 m2</td>
+            </tr>
+            <tr>
+              <th>Bruttoareal</th>
+              <td>100 m2 inkl. altan og depotrum</td>
+            </tr>
+            <tr>
+              <th>Byggeår</th>
+              <td>1906/1995</td>
+            </tr>
+            <tr>
+              <th>Varmekilde</th>
+              <td>Fjernvarme</td>
+            </tr>
+            <tr>
+              <th>Energimærke</th>
+              <td>C</td>
+            </tr>
+            <tr>
+              <th>Parkering</th>
+              <td>Privat parkeringsmulighed</td>
+            </tr>
+            <tr>
+              <th>Depotrum</th>
+              <td>Privat depotrum medfølger</td>
+            </tr>
+            <tr>
+              <th>Bådplads</th>
+              <td>Privat bådplads nr. C er nævnt i materialet og bør verificeres.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="section-head">
+        <div>
+          <p class="kicker">Billeder</p>
+          <h2>Udvalgte fotos</h2>
+        </div>
+        <p>
+          Fotos er udvalgt for at vise udsigt, altan, opholdsrum, køkken,
+          værelser og badeværelse. Flere billeder kan ses på boligens online
+          galleri.
+        </p>
+      </div>
+
+      <div class="image-grid">
+        <figure>
+          <img src="assets/gallery/IMG_2006.jpg" alt="Altan over Alssund" />
+          <figcaption>Altan direkte over Alssund.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/living-water-view.jpg" alt="Opholdsrum med vandudsigt" />
+          <figcaption>Opholdsrum med udsigt mod vandet.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/kitchen.jpg" alt="Køkken" />
+          <figcaption>Åbent AUBO-køkken i forbindelse med stue.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/bay-window-balcony.jpg" alt="Karnap og altandør" />
+          <figcaption>Karnap med adgang til altanen.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/bedroom.jpg" alt="Soveværelse" />
+          <figcaption>Soveværelse med skabsplads.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/bathroom.jpg" alt="Badeværelse" />
+          <figcaption>Badeværelse i roligt, moderne udtryk.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="section-head">
+        <div>
+          <p class="kicker">Plantegning</p>
+          <h2>Plan og rumfordeling</h2>
+        </div>
+        <p>
+          Plantegningen viser køkken-alrum/stue, to værelser, bad, gang/entré
+          og altan. Plantegningen er vejledende og uden ansvar.
+        </p>
+      </div>
+
+      <figure class="floorplan">
+        <img src="Screenshot%202026-05-13%20at%2021.04.02.png" alt="Plantegning" />
+        <figcaption>Vejledende plantegning for Sundgade 1, 4.th.</figcaption>
+      </figure>
+    </section>
+
+    <section class="content">
+      <div class="section-head">
+        <div>
+          <p class="kicker">Beliggenhed</p>
+          <h2>Ved vand og by</h2>
+        </div>
+        <p>
+          Sundgade 1 ligger ved Alssund på samme side som Alsion, SDU og
+          Sønderborg Station. Borgen, Sønderborg Slot, busstationen, gågade,
+          caféer og restauranter ligger på modsatte side af sundet og nås over
+          broen.
+        </p>
+      </div>
+
+      <div class="two-col">
+        <div>
+          <h3>Udvalgte afstande</h3>
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>Alsion og koncertsal</th>
+                <td>50 m</td>
+              </tr>
+              <tr>
+                <th>SDU</th>
+                <td>50 m</td>
+              </tr>
+              <tr>
+                <th>Sønderborg Station</th>
+                <td>50 m</td>
+              </tr>
+              <tr>
+                <th>Busstop</th>
+                <td>50 m</td>
+              </tr>
+              <tr>
+                <th>Strand</th>
+                <td>300 m</td>
+              </tr>
+              <tr>
+                <th>Byliv</th>
+                <td>Over broen</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h3>Hverdagskvaliteter</h3>
+          <ul class="list">
+            <li>Første parket til Alssund med kig til bro, vand og by.</li>
+            <li>Kort vej til universitet, station, kultur og havnefront.</li>
+            <li>Gåture langs vandet og adgang til strand i nærområdet.</li>
+            <li>Bymidte, indkøb, caféer, restauranter og Sønderborg Slot over broen.</li>
+            <li>Fælles udearealer ved vandet til ejendommen.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="section-head">
+        <div>
+          <p class="kicker">Bilag</p>
+          <h2>Dokumenter</h2>
+        </div>
+        <p>
+          Nedenstående dokumenter er tilgængelige i materialet og kan fremsendes
+          sammen med salgsopstillingen eller efter aftale. De bør gennemgås af
+          køber, bank og eventuelle rådgivere.
+        </p>
+      </div>
+
+      <div class="document-list">
+        <article>
+          <strong>BBR-meddelelse</strong>
+          <span>documentation/bbrmeddelelse.pdf</span>
+        </article>
+        <article>
+          <strong>Energimærke</strong>
+          <span>documentation/Energimærke_sundbo.pdf</span>
+        </article>
+        <article>
+          <strong>Fællesudgifter 2026</strong>
+          <span>documentation/SUNDBO Fællesudgifter 2026.pdf</span>
+        </article>
+        <article>
+          <strong>Budget 2027</strong>
+          <span>documentation/Budget Sudbo 2027.pdf</span>
+        </article>
+        <article>
+          <strong>Ejendomsskatter</strong>
+          <span>documentation/Ejendomsskatter.pdf</span>
+        </article>
+        <article>
+          <strong>Forbrugsopgørelse 2025</strong>
+          <span>documentation/Techem_Forbrugsopgørelse_2025.PDF</span>
+        </article>
+        <article>
+          <strong>Referat fra generalforsamling 2026</strong>
+          <span>documentation/Referat af generalforsamling i Sundbo 2026.pdf</span>
+        </article>
+        <article>
+          <strong>Revisionsprotokollat 2025</strong>
+          <span>documentation/Revisionsprotokollat 2025.pdf</span>
+        </article>
+        <article>
+          <strong>Tinglysning</strong>
+          <span>documentation/Tinglysningdk.pdf</span>
+        </article>
+      </div>
+
+      <div class="note">
+        Salgsopstillingen er udarbejdet til brug ved privat salg og er ikke en
+        ejendomsmæglerudarbejdet salgsopstilling. Oplysninger om mål, arealer,
+        økonomi, plantegning, kortforhold og beskrivelser kan være afrundede
+        eller ændre sig. Køber opfordres til at verificere oplysninger i
+        dokumenter, hos ejerforening/administrator og med egne rådgivere inden
+        indgåelse af aftale.
+      </div>
+
+      <p class="footer-line">
+        Udarbejdet 19. maj 2026 · Sundgade 1, 4.th, 6400 Sønderborg · Kontakt:
+        soren.petersen95@gmail.com · Website:
+        https://sren95.github.io/bolig-til-salg/
+      </p>
+    </section>
+  </main>
+</body>
+</html>

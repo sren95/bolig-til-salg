@@ -38,6 +38,10 @@ changes, keep it updated, and use it as project memory.
 - `scripts/generate-qr-code.py`: Regenerates the QR code PNG for the website
   URL.
 - `scripts/requirements-qr.txt`: Python dependency for QR generation.
+- `salgsopstilling-sundgade-1.html`: Print-ready private sales statement
+  source for bank/interested buyers.
+- `salgsopstilling-sundgade-1.pdf`: Generated PDF sales statement for sharing
+  with interested buyers/banks.
 - `qr-code.png`: Current QR code image for the public website URL.
 - `Screenshot 2026-05-13 at 21.04.02.png`: Current floor plan image.
 
@@ -296,6 +300,11 @@ GitHub Pages should be configured as:
   QR code can be regenerated for the GitHub Pages URL. The QR script adds a
   centered "Sundgade 1" label by default; use `--center-text` to change it or
   `--no-center-text` for a plain QR code.
+- Created a bank-friendly private sales statement:
+  `salgsopstilling-sundgade-1.html` and generated
+  `salgsopstilling-sundgade-1.pdf`. The PDF is intended to be sent as the main
+  document to interested buyers/banks, with underlying PDFs from
+  `documentation/` as supporting attachments.
 
 ## Known Open Items
 
