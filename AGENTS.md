@@ -68,6 +68,7 @@ Use these as the currently known facts unless the user changes them:
 - Takeover: Flexible.
 - Pets: Allowed, per user input.
 - Kitchen and bathroom brand: AUBO, per user input/template.
+- Kitchen countertops: massive granite stone countertops, per user input.
 - Parking: Private parking option; earlier material mentions unnumbered parking.
 - Boat spot: Private boat spot no. C is mentioned in historic material and
   should be confirmed as current before being treated as final.
@@ -327,6 +328,9 @@ GitHub Pages should be configured as:
 - Added the remote-controlled skylight/ovenlysvindue as a unique feature in the
   public site copy, the PDF sales statement source, and the property-info
   template.
+- Added QR-code placement to the public contact section and the printable sales
+  statement source, and added massive granite stone kitchen countertops as a
+  current material detail.
 
 ## Known Open Items
 

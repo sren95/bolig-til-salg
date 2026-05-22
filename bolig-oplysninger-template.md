@@ -121,6 +121,7 @@ Skriv gerne 5-10 korte punkter.
 - Beskrivelse: Åbent AUBO-køkken i køkken-alrum.
 - Hårde hvidevarer: Tidligere salgsopstilling nævner emhætte, kogeplader, indbygningsovn og opvaskemaskine fra Siemens.
 - Spiseplads: Ja, i køkken-alrum/stue.
+- Bordplader: Massive bordplader i granitsten.
 - Stand: Tidligere salgsopstilling beskriver boligen som totalistandsat/renoveret.
 - Mærke: AUBO
 
