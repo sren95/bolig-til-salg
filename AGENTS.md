@@ -331,6 +331,9 @@ GitHub Pages should be configured as:
 - Added QR-code placement to the public contact section and the printable sales
   statement source, and added massive granite stone kitchen countertops as a
   current material detail.
+- Updated `README.md` with the public GitHub Pages URL, direct links to the
+  gallery and sales statement, local preview instructions, GitHub Pages setup
+  notes, and QR/gallery maintenance commands.
 
 ## Known Open Items
 
